@@ -1,0 +1,22 @@
+html {
+  background-color: lightblue;
+}
+
+h1 {
+  border: 3px solid black;
+}
+
+div p {
+  color: black;
+  background: yellow;
+}
+
+.itemone {
+  linked: "#";
+}
+
+.blogtext textarea {
+  border: 3px solid black;
+  width: 400px;
+  height: 300px;
+}

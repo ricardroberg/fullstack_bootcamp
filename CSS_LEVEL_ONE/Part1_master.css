@@ -1,0 +1,24 @@
+/* Comment Line */
+
+/*
+selected tag {
+  property: value;
+}
+*/
+
+h1 {
+  color: red;
+}
+
+li {
+  color: rgb(232, 136, 9);
+}
+
+p {
+  color: #0889bd;
+}
+
+
+h4 {
+  color: rgba(232, 136, 9, 0.5); /* a = Alpha = Transparency */
+}

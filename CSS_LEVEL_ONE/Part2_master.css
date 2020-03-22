@@ -1,0 +1,27 @@
+/* Comment Line */
+
+/*
+selected tag {
+  property: value;
+}
+*/
+body {
+  background: url(http://www.6senso.com.br/wp-content/uploads/2017/04/summit-beach-resort-panama-city-beach-fl-beach-01.jpg);
+  background-repeat: repeat;
+}
+
+div {
+  background-color: blue;
+  border-color: orange;
+  border-width: 5px;
+  border-style: double;
+}
+
+p {
+  color: yellow;
+}
+
+span {
+  background: red;
+  color: black;
+}
