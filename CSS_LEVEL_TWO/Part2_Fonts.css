@@ -1,0 +1,40 @@
+h1 {
+  font-family: "Arial";
+}
+
+/* p {
+  font-family: 'Barrio', cursive;
+} */
+
+p {
+   font-family: 'AlexBrushRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+
+
+
+
+/*
+body {
+  font-size: 20px;
+}
+
+#two {
+  font-size: 1.0em;
+}
+
+p {
+  font-style: italic;
+  font-weight: bold;
+  /* text-align: justify; */ /*
+}
+
+h1 {
+  text-align: center;
+}
+*/
+/* 1em = 16px
+2em = 32px */
