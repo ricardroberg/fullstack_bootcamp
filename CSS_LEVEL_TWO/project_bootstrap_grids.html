@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grids</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <!-- Usando Boostrap 3.3 em vez do 4 por causa de classes depreciadas -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <style>
+      .boxy {
+        background: #b3ddff;
+        border: 2px solid black;
+      }
+    </style>
+    <body>
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 boxy">COL Large 4</div>
+          <div class="col-lg-4 boxy">COL Large 4</div>
+          <div class="col-lg-4 boxy">COL Large 4</div>
+        </div>
+<br>
+        <div class="row">
+          <div class="col-md-6 boxy">COL Med 6</div>
+          <div class="col-md-6 boxy">COL Med 6</div>
+        </div>
+<br>
+        <div class="row">
+          <div class="col-xs-6 boxy">COL XS 6</div>
+          <div class="col-xs-6 boxy">COL XS 6</div>
+        </div>
+<br>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 boxy">ONE</div>
+          <div class="col-lg-3 col-sm-6 boxy">TWO</div>
+          <div class="col-lg-3 col-sm-6 boxy">THREE</div>
+          <div class="col-lg-3 col-sm-6 boxy">FOUR</div>
+        </div>
+
+      </div>
+      <h1>Nested</h1>
+      <div class="row">
+
+        <div class="col-lg-6 boxy">
+          <div class="row">
+            <div class="col-lg-6 boxy">NEST ONE</div>
+            <div class="col-lg-6 boxy">NEST TWO</div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 boxy">TOP LEVEL</div>
+
+      </div>
+
+
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </body>
+</html>

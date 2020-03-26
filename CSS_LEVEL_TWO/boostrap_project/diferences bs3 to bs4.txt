@@ -1,0 +1,7 @@
+<nav class="navbar navbar-dark bg-dark">
+
+<ul class="navbar-nav  mr-auto">
+
+<div class="col-lg-4 col-6"><img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/04LDEYRW59.jpg" alt="" class="img-thumbnail"> </div>
+
+<button type="button" class="btn btn-outline-dark" name="button">Submit</button>
