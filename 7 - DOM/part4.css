@@ -1,0 +1,21 @@
+td {
+   height: 150px; /* eu usei 100 */
+   width: 150px; /* eu usei 100 */
+   text-align: center; /* nao usei */
+   /* padding: 10; eu usei*/
+   border: 5px solid black; /* eu usei 3px solid black */
+   font-size: 100px; /* eu usei 20 */
+
+
+}
+
+
+/* #tictactoe {
+  margin: center;
+  text-align: center;
+  font-size: 4em
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+} */

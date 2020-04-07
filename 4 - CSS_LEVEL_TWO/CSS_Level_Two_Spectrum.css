@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+/* Usou uma classe em vez da tag */
+table {
+    margin: auto;
+}
+
+td {
+  width: 150px; /* Usei 100 x 200*/
+  height: 300px;
+  /* padding: 30px; Desnecessario*/
+  border: 6px solid #ffffff; /* aumentei pra 6px e usei hex em vez de escrever white*/
+}
+
+#one {
+
+  background-color: #42498a
+}
+
+#two{
+  background-color: #6a9a3f;
+}
+
+#three {
+  background-color: #32572a;
+}
+
+#four {
+  background-color: #e0e1da;
+}
+
+#five {
+  background-color: #d6c9a9;
+}
