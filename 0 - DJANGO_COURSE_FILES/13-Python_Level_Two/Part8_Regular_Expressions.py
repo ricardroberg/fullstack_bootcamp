@@ -58,7 +58,7 @@ text = 'This is a string with term1, but it does not have the other term.'
 
 match = re.search(pattern,  text)
 
-type(match)
+print(type(match))
 
 
 # This Match object returned by the search() method is more than just a Boolean
