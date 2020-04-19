@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b15e44f-b400-495b-ace6-44b1c0268c17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/9 - Django_Projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProTwo/AppTwo/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProTwo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProTwo/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProTwo/templates/apptwo/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_project/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_project/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_project/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/first_project/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/static/css/mystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/static/images/djangoguitar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_project/templates/first_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0 - DJANGO_COURSE_FILES/13-Python_Level_Two/part8.py" beforeDir="false" afterPath="$PROJECT_DIR$/../0 - DJANGO_COURSE_FILES/13-Python_Level_Two/part8.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ajTEgKHEYsJtCtPX3AtNgd0mhD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Maztah\ONEDRIVE\fullstack_bootcamp\9 - Django_Projects\first_project\templates\first_app" />
+      <recent name="$PROJECT_DIR$/ProTwo/AppTwo" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b15e44f-b400-495b-ace6-44b1c0268c17" name="Default Changelist" comment="" />
+      <created>1587247893168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587247893168</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="204" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587248082064">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="204" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.827@0.23.1440.827" timestamp="1587248082064" />
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1587299835400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="275" key="FileChooserDialogImpl/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1587299835400" />
+    <state x="75" y="166" key="SettingsEditor" timestamp="1587302796055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="75" y="166" key="SettingsEditor/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1587302796055" />
+    <state x="419" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1587251605658">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="419" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1587247965153" />
+    <state x="419" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1587251605658" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/first_project/first_project/settings.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
