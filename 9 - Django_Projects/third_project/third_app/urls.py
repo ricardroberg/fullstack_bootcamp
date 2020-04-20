@@ -1,7 +1,7 @@
 from django.urls import path, include
-from .views import index, users
+from .views import index, third_app
 
 urlpatterns = [
     path('', index, name='index'),
-    path('users/', users, name='users')
+    path('third_app/', third_app, name='third_app')
 ]

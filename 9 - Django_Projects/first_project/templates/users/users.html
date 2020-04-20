@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Django Level Two PROJECT</title>
+    <link rel="stylesheet" href="{% static 'css/mystyle.css' %}"/>
+</head>
+<body>
+
+    <h1>Here are your users:</h1>
+
+    <div>
+        {% if users %}
+
+<!--Tinha colocado o FOR fora do OL-->
+                <ol>
+                    {% for acc in users %}
+                        <li>User Info</li>
+                        <ul>
+                            <li>First Name: {{ acc.first_name }}</li>
+                            <li>Last Name: {{ acc.last_name }}</li>
+                            <li>Email: {{ acc.email }}</li>
+                        </ul>
+                    {% endfor %}
+                </ol>
+
+        {% else %}
+            <p>NO ACCESS RECORDS FOUND!</p>
+        {% endif %}
+
+    </div>
+
+</body>
+</html>

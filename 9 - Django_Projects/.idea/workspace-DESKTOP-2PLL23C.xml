@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b15e44f-b400-495b-ace6-44b1c0268c17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/first_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/first_app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/first_app/migrations/0002_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/first_app/migrations/0003_auto_20200420_1330.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/populate_first_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/populate_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/templates/users/users.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/third_project/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/third_project/db.sqlite3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/third_project/manage.py" afterDir="false" />
@@ -28,13 +20,6 @@
       <change afterPath="$PROJECT_DIR$/third_project/third_project/urls.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/third_project/third_project/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/static/css/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/static/css/mystyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/templates/first_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/templates/first_app/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,22 +79,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="102" key="#Notifications" timestamp="1587320698376">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="320" y="102" key="#Notifications/0.23.1440.829@0.23.1440.829" timestamp="1587320698376" />
     <state x="204" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587248082064">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="204" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.827@0.23.1440.827" timestamp="1587248082064" />
-    <state x="302" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587402555703">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="302" y="330" key="#com.intellij.fileTypes.FileTypeChooser/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1587402555703" />
-    <state x="295" y="119" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1587320749915">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="295" y="119" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.829@0.23.1440.829" timestamp="1587320749915" />
     <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1587299835400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -118,11 +91,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="75" y="166" key="SettingsEditor/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1587302796055" />
-    <state x="419" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1587350220153">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="419" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1587251605658">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="419" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1587350220153" />
-    <state x="419" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1587318159529" />
+    <state x="419" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1587247965153" />
+    <state x="419" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1587251605658" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
