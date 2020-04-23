@@ -2,39 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b15e44f-b400-495b-ace6-44b1c0268c17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/first_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/first_app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/first_app/migrations/0002_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/first_app/migrations/0003_auto_20200420_1330.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/populate_first_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/populate_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project/templates/users/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/templates/third_app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_project/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_project/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_project/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third_project/third_project/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 - DJANGO_LEVEL_THREE/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 - DJANGO_LEVEL_THREE/.idea/10 - DJANGO_LEVEL_THREE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 - DJANGO_LEVEL_THREE/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 - DJANGO_LEVEL_THREE/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 - DJANGO_LEVEL_THREE/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 - DJANGO_LEVEL_THREE/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 - DJANGO_LEVEL_THREE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 - DJANGO_LEVEL_THREE/basicforms/basicapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 - DJANGO_LEVEL_THREE/basicforms/basicapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 - DJANGO_LEVEL_THREE/basicforms/templates/basicapp/form_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 - DJANGO_LEVEL_THREE/basicforms/templates/basicapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProTwo/AppTwo/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProTwo/AppTwo/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProTwo/AppTwo/migrations/0002_auto_20200423_0938.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProTwo/populate_users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProTwo/templates/apptwo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProTwo/templates/apptwo/signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProTwo/templates/apptwo/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/first_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/first_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/static/css/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/static/css/mystyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project/templates/first_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/first_project/templates/first_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProTwo/AppTwo/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProTwo/AppTwo/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProTwo/AppTwo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProTwo/AppTwo/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProTwo/AppTwo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProTwo/AppTwo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProTwo/AppTwo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProTwo/AppTwo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProTwo/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ProTwo/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -67,10 +58,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ProTwo" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Maztah\ONEDRIVE\fullstack_bootcamp\9 - Django_Projects\ProTwo" />
+      <recent name="E:\Maztah\ONEDRIVE\fullstack_bootcamp\9 - Django_Projects\ProTwo\templates\apptwo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Maztah\ONEDRIVE\fullstack_bootcamp\9 - Django_Projects\third_project\third_app" />
       <recent name="E:\Maztah\ONEDRIVE\fullstack_bootcamp\9 - Django_Projects\first_project\templates\first_app" />
@@ -110,10 +105,10 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="295" y="119" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.829@0.23.1440.829" timestamp="1587320749915" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1587299835400">
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1587404297058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="275" key="FileChooserDialogImpl/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1587299835400" />
+    <state x="739" y="275" key="FileChooserDialogImpl/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1587404297058" />
     <state x="75" y="166" key="SettingsEditor" timestamp="1587302796055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -123,6 +118,10 @@
     </state>
     <state x="419" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1587350220153" />
     <state x="419" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1587318159529" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587645281462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1587645281462" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
