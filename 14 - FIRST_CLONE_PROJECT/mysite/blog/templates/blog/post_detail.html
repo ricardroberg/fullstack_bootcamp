@@ -1,0 +1,54 @@
+{% extends "blog/base.html" %}
+
+{% block body_block %}
+
+<h1 class="posttitle">{{ post.title }}</h1>
+    {% if post.published_date %}
+        <div class="date postdate">
+            {{ post.published_date }}
+        </div>
+    {% else %}
+        <a class="btn btn-primary" href="{% url 'post_publish' pk=post.pk%}">Publish</a>
+    {% endif %}
+        <p class="postcontent">{{ post.text|safe|linebreaksbr }}</p>
+
+    {% if user.is_authenticated %}
+        <a class="btn btn-warning" href="{% url 'post_edit' pk=post.pk %}">
+            <span class="material-icons">edit</span>
+        </a>
+        <a class="btn btn-danger" href="{% url 'post_remove' pk=post.pk %}">
+            <span class="material-icons">clear</span>
+        </a>
+    {% endif %}
+
+    <hr>
+    <a class="btn btn-primary btn-comment" href="{% url 'add_comment_to_post' pk=post.pk %}">Add Comment</a>
+
+    <div class="container">
+        {% for comment in post.comments.all %}
+            <br>
+            {% if user.is_authenticated or comment.comment_approve %}
+                <div class="card bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header">{{ comment.create_date }}</div>
+                        <div class="card-body">
+                        <h5 class="card-title">{{ comment.author }}</h5>
+                        <p class="card-text">{{ comment.text|safe|linebreaks }}</p>
+                    </div>
+                </div>
+        <div class="container">
+            {% if not comment.approved_comment %}
+                <a class="btn btn-primary btn-sm" href="{% url 'comment_approve' pk=comment.pk %}">
+                    <span class="material-icons">done</span>
+                </a>
+            {% endif %}
+                <a class="btn btn-warning btn-sm" href="{% url 'comment_remove' pk=comment.pk %}">
+                    <span class="material-icons">clear</span>
+                </a>
+        </div>
+            {% endif %}
+            {% empty %}
+                <p>No Comments!</p>
+        {% endfor %}
+    </div>
+
+{% endblock %}
