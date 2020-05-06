@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+{% load static %}
+{% load bootstrap4 %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Social</title>
+        <!--    Bootstrap 4-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!--    https://github.com/yabwe/medium-editor-->
+    <script src="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/js/medium-editor.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
+    <!--    Personal CSS-->
+    <!--    <link rel="stylesheet" href="{% static 'simplesocial/css/master.css'%}">-->
+    <!--    Fonts   -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Russo+One&display=swap" rel="stylesheet">
+    <!--    Icon Font-->
+    <!--    https://material.io/resources/icons/?icon=fingerprint&style=baseline-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light techfont custom-navbar">
+        <a class="navbar-brand bigbrand mynav" href="{% url 'home' %}">My Social</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'posts:create' %}">Post</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'groups:all' %}">Groups</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'groups:create' %}">Create Group</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a>
+                    </li>
+
+                {% else %}
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'groups:all' %}">Groups</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="{% url 'accounts:login' %}">
+                            <span class="material-icons">fingerprint</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="{% url 'accounts:signup' %}">
+                            <span class="material-icons">account_box</span>
+                        </a>
+                    </li>
+                </ul>
+                {% endif %}
+
+            </ul>
+        </div>
+    </nav>
+<div class="container mycontent">
+                    {% block content %}
+<!--    Anything outside of this will be inherited if you extend-->
+                     {% endblock%}
+</div>
+
+</body>
+
+</html>
