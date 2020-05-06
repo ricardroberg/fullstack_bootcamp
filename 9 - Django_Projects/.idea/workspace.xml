@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b15e44f-b400-495b-ace6-44b1c0268c17" name="Default Changelist" comment="" />
+    <list default="true" id="6b15e44f-b400-495b-ace6-44b1c0268c17" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProTwo/ProTwo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProTwo/ProTwo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProTwo/ProTwo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProTwo/ProTwo/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../11 - DJANGO_LEVEL_FOUR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../16 - ADMIN_CUSTOMIZATION" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -80,10 +84,10 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="295" y="119" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.829@0.23.1440.829" timestamp="1587320749915" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1587645889750">
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1588774364322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="275" key="FileChooserDialogImpl/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1587645889750" />
+    <state x="739" y="275" key="FileChooserDialogImpl/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1588774364322" />
     <state x="75" y="166" key="SettingsEditor" timestamp="1587302796055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
